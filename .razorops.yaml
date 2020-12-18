@@ -4,4 +4,5 @@ tasks:
     steps:
     - docker/build:
       image: nikhilmaripi03/demoimage
-      tags: [v1]
+      if: branch == 'master'
+      allow_failure: true
