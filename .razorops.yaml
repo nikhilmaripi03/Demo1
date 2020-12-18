@@ -1,5 +1,6 @@
 tasks:
   build-image:
+    type: build
     steps:
     - docker/build:
       image: nikhilmaripi03/demo1
