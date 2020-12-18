@@ -2,8 +2,8 @@ tasks:
   build-image:
     type: build
     steps:
-    - docker/build:
-      image: nikhilmaripi03/demo1/demo
-      push: true
-      if: branch == 'master'
-      allow_failure: true
+      - docker/build:
+        image: nikhilmaripi03/demo1
+        push: true
+        if: branch == 'master'
+        allow_failure: true
