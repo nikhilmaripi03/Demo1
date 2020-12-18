@@ -4,5 +4,6 @@ tasks:
     steps:
       - docker/build:
           image: nikhilmaripi03/demo1
-          push: true
+          tags: [v1]
+          dockerfile: Dockerfile.build
        
