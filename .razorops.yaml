@@ -5,4 +5,4 @@ tasks:
     - docker/build:
       image: nikhilmaripi03/demoimage
       tags: [v1]
-      dockerfile: Dockerfile.build
+      dockerfile: Dockerfile
