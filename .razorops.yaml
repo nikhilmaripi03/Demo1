@@ -4,6 +4,5 @@ tasks:
     steps:
       - docker/build:
           image: nikhilmaripi03/demo1
-          tags: ["latest"]
           dockerfile: Dockerfile
        
