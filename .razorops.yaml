@@ -4,6 +4,6 @@ tasks:
     steps:
       - docker/build:
           image: nikhilmaripi03/demo1
-          tags: ["${CI_COMMIT_SHA}", "latest"]
+          tags: ["latest"]
           dockerfile: Dockerfile
        
